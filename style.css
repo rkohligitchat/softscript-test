@@ -412,7 +412,8 @@ color: #404A3D;
 /* Services */
 
 .services{
-  padding:80px 0;
+  padding: 80px 50px;   /* left-right spacing */
+  margin:0 30px; /* left-right 30px */
   text-align:center;
 }
 
@@ -447,13 +448,7 @@ color: #404A3D;
   flex-wrap:wrap;
 }
 
-/* CARD */
 
-.service-card{
-  position:relative;
-  width:327px;
-  height:410px;
-}
 
 /* SVG background */
 
@@ -510,9 +505,9 @@ color: #404A3D;
 }
 
 .service-card{
-  position: relative;
-  width: 327px;
-  height: 410px;
+    position: relative;
+    width: 276px;
+    height: 410px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -533,7 +528,7 @@ color: #404A3D;
 /* arrow button */
 .arrow-btn{
   position: absolute;
-  top: 20px;
+  top: 50px;
   right: 0px;
   width: 45px;
   height: 45px;
@@ -549,10 +544,8 @@ color: #404A3D;
 
 /* circle image */
 .service-card img{
- 
-
-  width: 250px;
-    height: 250px;
+     width: 208px;
+    height: 207px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #5B8C51;
@@ -591,11 +584,11 @@ color: #404A3D;
 /* testimonial */
 
 .testimonial-section{
-  padding:100px 0;
+  padding:40px 150px;
+  
 }
 
 .container{
-  width:1200px;
   margin:auto;
 }
 
@@ -603,7 +596,6 @@ color: #404A3D;
   display:flex;
   justify-content:space-between;
   align-items:center;
-  margin-bottom:50px;
 }
 
 .tag{
@@ -634,7 +626,6 @@ color: #404A3D;
   width:40px;
   height:40px;
   border:1px solid #bbb;
-  background:white;
   cursor:pointer;
   transition:0.3s;
 }
@@ -734,13 +725,6 @@ color: #404A3D;
 
 
 
-
-
-
-
-
-
-
 /* bar */
 
 
@@ -748,7 +732,7 @@ color: #404A3D;
 
 .contact-bar{
   background:#d8c74f;
-  padding:25px 0;
+  padding:25px 100px;
 }
 
 .contact-bar-inner{
